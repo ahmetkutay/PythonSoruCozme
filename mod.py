@@ -2,12 +2,14 @@
 
 mod_list = []
 
-
 def divide_Funtion(initial_range, end_range, mod):
+    total = 0
     for num in range(initial_range, end_range):
         if(num % mod == 0):
             mod_list.append(num)
-    print(mod, "değerine tam bölünenler ..: ", mod_list)
+        for i in range(len(mod_list)):
+            total += mod_list[i]
+    print(mod, "değerine tam bölünenlerin toplamı ..: ", total)
 
 
 def main():
