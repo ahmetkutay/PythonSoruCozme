@@ -44,7 +44,7 @@ def main(len_value):
                         temp_list.append(int_list[i])
                         temp_list.append(int_list[k])
                         subset_Print(k)
-        print("En büyük değer..: ", max(toplam_out_list))
+        print("En büyük toplam ", max(toplam_out_list), " olur.")
     else:
         print("Yanlış değer girdiniz")
 

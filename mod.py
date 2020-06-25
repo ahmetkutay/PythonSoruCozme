@@ -9,7 +9,7 @@ def divide_Funtion(initial_range, end_range, mod):
             mod_list.append(num)
         for i in range(len(mod_list)):
             total += mod_list[i]
-    print(mod, "değerine tam bölünenlerin toplamı ..: ", total)
+    print(mod, "Değerine tam bölünenlerin toplamı ..: ", total)
 
 
 def main():
